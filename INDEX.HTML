@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Banking Management System</title>
+    <link rel="stylesheet" href="logincss.css">
+</head>
+<body>
+    <div class="signin-container">
+        <div class="signin-box">
+            <h2>Welcome Back</h2>
+            <p>Please sign in to continue</p>
+            <form>
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <button type="button" onclick="window.location.href='dashboard.html'">Sign In</button>
+            </form>
+            <p class="register-link">New User? <a href="register.html">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>
